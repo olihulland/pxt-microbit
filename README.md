@@ -1,3 +1,13 @@
+# Key Change I Made
+
+This has been forked to facilitate building extensions allowing for ML inference on microbit v2. This work was done for my final project - see related repo [here](https://github.com/olihulland/Cloudlet-AI).
+
+The main change is to point to my fork of microbit-v2-samples in the pxtarget.json file for the compile service. The forked repo is [here](https://github.com/olihulland/microbit-v2-samples/) and has a tweaked cmake to check for any libraries listed in an extensions pxt.json. This is because I need to include my [codal-tflite](https://github.com/olihulland/codal-tflite) library in the build of the makecode extension for cloudlet ai work.
+
+Other tweaks were done to overcome build errors as hacks to get the extension to build. Consequences unknown!
+
+The extension used for cloudlet ai can be found in `libs/test-predict-extension`.
+
 # micro:bit target for PXT
 
 [![Build Status](https://travis-ci.org/microsoft/pxt-microbit.svg?branch=master)](https://travis-ci.org/microsoft/pxt-microbit) ![pxt-testghpkgs](https://github.com/microsoft/pxt-microbit/workflows/pxt-testghpkgs/badge.svg)
