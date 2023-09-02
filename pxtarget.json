@@ -17,7 +17,8 @@
         "libs/flashlog",
         "libs/datalogger",
         "libs/color",
-        "libs/audio-recording"
+        "libs/audio-recording",
+        "libs/test-predict-extension"
     ],
     "cloud": {
         "workspace": false,
@@ -193,8 +194,8 @@
                     "type": "git"
                 },
                 "codalBinary": "MICROBIT",
-                "githubCorePackage": "lancaster-university/microbit-v2-samples",
-                "gittag": "v0.2.12",
+                "githubCorePackage": "olihulland/microbit-v2-samples",
+                "gittag": "v0.2.13",
                 "serviceId": "mbcodal2",
                 "dockerImage": "pext/yotta:update-yotta3",
                 "yottaConfigCompatibility": true
