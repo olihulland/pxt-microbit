@@ -1,0 +1,3 @@
+[submodule "libs/test-predict-extension"]
+	path = libs/test-predict-extension
+	url = https://github.com/olihulland/test-predict-extension
